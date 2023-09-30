@@ -4,6 +4,8 @@ import altair as alt
 from openpyxl import Workbook
 from PIL import Image
 
+workbook = Workbook()
+
 st.set_page_config(layout='wide')
 
 @st.cache_data
